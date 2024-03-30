@@ -19,7 +19,9 @@ The site also offers users the ability to search for visa regulations for Americ
 
 The data scraped from the US Department of State website has been made accessible in the form of easy to access APIs. There are APIs available for visa information and travel requirmenets (for American citizens, but other information is relevant to all nationalities) and safety warnings/travel advisories.
 
-To query the API simply go to the following production endpoints:
+How to access the API will be documented here once the API becomes available. For now, please copy the data from the visa-api page if you wish to use it.
+
+<!-- To query the API simply go to the following production endpoints:
 
 - Visa Information: `https://calculatevisa.com/.netlify/functions/visaInfo`
 - Safety Information: `https://calculatevisa.com/.netlify/functions/safetyInfo`
@@ -27,7 +29,7 @@ To query the API simply go to the following production endpoints:
 Likewise using `curl`, for production these can be accessed:
 
 `curl https://calculatevisa.com/.netlify/functions/visaInfo`
-`curl https://calculatevisa.com/.netlify/functions/safetyInfo`
+`curl https://calculatevisa.com/.netlify/functions/safetyInfo` -->
 
 ## Tech Stack
 
