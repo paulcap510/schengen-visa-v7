@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaClipboard } from 'react-icons/fa';
+// import { FaClipboard } from 'react-icons/fa';
 import './VisaApi.css';
 import countryData from '../../country_data_updated.json';
 import safetyData from '../../safety_data.json';
@@ -56,7 +56,8 @@ const VisaApi = () => {
         errors or missing data.
       </p>
       <h2>Accessing the API</h2>
-      <div className="text-container">
+      <div className="text-container-api"> Information coming soon!</div>
+      {/* <div className="text-container">
         <p>
           To query the API, simply go to the following production endpoints:
         </p>
@@ -88,7 +89,7 @@ const VisaApi = () => {
             </code>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       <p className="date-text">
         Most recent data:<b className="date-value">March 2024</b>
