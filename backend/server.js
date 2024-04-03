@@ -20,6 +20,10 @@ app.get('/api/safetydata', (req, res) => {
   res.json(safetyData);
 });
 
+app.all('*', (req, res) => {
+  res.status(404).send('Endpoint not found.');
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
