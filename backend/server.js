@@ -2,7 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const helmet = require('helmet');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
+// const port = process.env.PORT || 3000;
 const path = require('path');
 
 app.use(helmet());
