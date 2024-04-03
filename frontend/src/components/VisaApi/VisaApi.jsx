@@ -57,18 +57,22 @@ const VisaApi = () => {
       </p>
       <h2>Accessing the API</h2>
       <div className="text-container-api"> Information coming soon!</div>
-      {/* <div className="text-container">
+      <div className="text-container">
         <p>
           To query the API, simply go to the following production endpoints:
         </p>
         <ul>
           <li>
             Visa Information:{' '}
-            <code>https://calculatevisa.com/.netlify/functions/visaInfo</code>
+            <code>
+              https://schengen-visa-backend.onrender.com/api/countrydata
+            </code>
           </li>
           <li>
             Safety Information:{' '}
-            <code>https://calculatevisa.com/.netlify/functions/safetyInfo</code>
+            <code>
+              https://schengen-visa-backend.onrender.com/api/safetydata
+            </code>
           </li>
         </ul>
         <p>
@@ -79,17 +83,17 @@ const VisaApi = () => {
           <li>
             Visa Information: <br />
             <code>
-              curl https://calculatevisa.com/.netlify/functions/visaInfo
+              curl https://schengen-visa-backend.onrender.com/api/countrydata
             </code>
           </li>
           <li>
             Safety Information:{' '}
             <code>
-              curl https://calculatevisa.com/.netlify/functions/safetyInfo
+              curl https://schengen-visa-backend.onrender.com/api/safetydata
             </code>
           </li>
         </ul>
-      </div> */}
+      </div>
 
       <p className="date-text">
         Most recent data:<b className="date-value">March 2024</b>
