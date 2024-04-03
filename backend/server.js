@@ -7,6 +7,8 @@ const port = process.env.PORT || 3000;
 app.use(helmet());
 app.use(cors());
 
+console.log(`Current working directory: ${process.cwd()}`);
+
 const countryData = require('../frontend/src/country_data_updated.json');
 const safetyData = require('../frontend/src/safety_data.json');
 
