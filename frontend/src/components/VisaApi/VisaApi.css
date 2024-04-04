@@ -141,10 +141,11 @@
   color: yellow;
 }
 
-.text-container code {
-  color: pink;
+.text-container {
+  text-align: left;
+  align-self: start;
 }
 
-.text-container-api {
-  align-self: flex-start;
+.text-container code {
+  color: pink;
 }

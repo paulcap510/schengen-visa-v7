@@ -56,7 +56,6 @@ const VisaApi = () => {
         errors or missing data.
       </p>
       <h2>Accessing the API</h2>
-      <div className="text-container-api"> Information coming soon!</div>
       <div className="text-container">
         <p>
           To query the API, simply go to the following production endpoints:
